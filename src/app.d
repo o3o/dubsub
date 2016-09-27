@@ -1,5 +1,4 @@
-//import insects.bee;
-import bee;
+import insects.bee;
 
 void main() {
     auto b = new Bee();
