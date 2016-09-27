@@ -1,0 +1,16 @@
+name "dubsub"
+description "A minimal D application."
+authors "o3o"
+copyright "Copyright © 2016, o3o"
+license "proprietary"
+
+dependency ":pets" version="*"
+dependency "dubsub:insects" version="*"
+
+subPackage {
+	name "pets"
+	description "Low level utility functionality"
+	targetType "library"
+	sourcePaths "pets/source"
+}
+subPackage "./insects"
