@@ -1,7 +1,6 @@
-//import pets.cat;
-import dubsub.insects.bee;
+import insects.bee;
 
 void main() {
-    //auto cat = new Cat();
-    //cat.miao();
+    auto b = new Bee();
+    b.buzz();
 }

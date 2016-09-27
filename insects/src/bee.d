@@ -1,4 +1,4 @@
-module dubsub.insects.bee;
+module insects.bee;
 
 import std.stdio;
 class Bee {
